@@ -8,6 +8,7 @@
 -  Map Patients with Doctors
 -  Prisma ORM for PostgreSQL interaction
 -  Global Error Handling with custom responses
+-  Implement Redis to store refresh token
 -  Logging using Winston & Morgan
 -  Scalable Folder Structure (MVC + Service)
 
@@ -21,6 +22,7 @@
 | Framework      | Express.js                      |
 | Database       | PostgreSQL                      |
 | ORM            | Prisma ORM                      |
+| Token Store	   | Redis (for storing refresh tokens securely)                 |
 | Auth           | JWT(AccessToken & RefreshToken) + bcrypt                    |
 | Logging        | Winston + Morgan                |
 | Error Handling | Custom Middleware + Response Wrappers |
