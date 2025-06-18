@@ -37,7 +37,7 @@ JWT_SECRET=your_jwt_secret_key
 NODE_ENV=development
 
 
-- git clone https://github.com/your-username/healthcare-api.git
+- git clone https://github.com/munnukumar/HealthCare.git
 - cd healthcare-api
 
 - npm install
