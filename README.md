@@ -21,7 +21,7 @@
 | Framework      | Express.js                      |
 | Database       | PostgreSQL                      |
 | ORM            | Prisma ORM                      |
-| Auth           | JWT + bcrypt                    |
+| Auth           | JWT(AccessToken & RefreshToken) + bcrypt                    |
 | Logging        | Winston + Morgan                |
 | Error Handling | Custom Middleware + Response Wrappers |
 
