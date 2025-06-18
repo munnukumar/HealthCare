@@ -1,0 +1,18 @@
+[Thu 00:28:18] ERROR POST /api/auth/login - Invalid credentials
+[Thu 00:28:18] INFO - - - POST /api/auth/login 401 66 - 107.706 ms
+[Thu 00:30:35] INFO - - - POST /api/auth/login 200 363 - 111.893 ms
+[Thu 00:32:00] INFO - - - POST /api/auth/login 200 363 - 94.104 ms
+[Thu 00:32:13] ERROR POST /api/auth/login - Invalid credentials
+[Thu 00:32:13] INFO - - - POST /api/auth/login 401 66 - 140.295 ms
+[Thu 00:32:31] INFO - - - POST /api/auth/logi 404 153 - 1.825 ms
+[Thu 00:32:41] INFO - - - POST /api/auth/logi 404 153 - 0.804 ms
+[Thu 00:50:29] INFO - - - GET /api/patients/fetch-patients 200 72 - 89.104 ms
+[Thu 00:51:57] INFO - - - GET /api/patients/fetch-patients 200 72 - 98.837 ms
+[Thu 00:53:02] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 00:53:02] INFO - - - GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 404 64 - 82.768 ms
+[Thu 00:53:09] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 00:53:09] INFO - - - GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 404 64 - 15.335 ms
+[Thu 00:53:32] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 00:53:32] INFO - - - GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 404 64 - 8.564 ms
+[Thu 00:53:47] INFO - - - GET /api/patients/fetch-patients 200 72 - 6.255 ms
+[Thu 00:55:21] INFO - - - GET /api/patients/fetch-patients 200 1219 - 110.487 ms

@@ -1,0 +1,5 @@
+[Thu 00:28:18] ERROR POST /api/auth/login - Invalid credentials
+[Thu 00:32:13] ERROR POST /api/auth/login - Invalid credentials
+[Thu 00:53:02] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 00:53:09] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 00:53:32] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
