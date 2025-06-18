@@ -14,7 +14,7 @@ const router = express.Router();
 router.post('/add-doctor', protect, addDoctor);
 router.get('/fetch-doctor', getDoctors);
 router.get('/fetch-doctor/:id', getDoctor);
-router.put('/update-doctor/:id', protect, editDoctor);
-router.delete('/remove-doctor/:id', protect, removeDoctor);
+router.put('/update-doctor/:id', editDoctor);
+router.delete('/remove-doctor/:id', removeDoctor);
 
 export default router;

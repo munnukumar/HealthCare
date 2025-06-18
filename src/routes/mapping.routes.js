@@ -12,6 +12,6 @@ const router = express.Router();
 router.post('/assign', protect, assignDoctor);
 router.get('/get', getMappings);
 router.get('/get-patient-doctor/:patientId', getPatientDoctors);
-router.delete('/remove-mapping/:id', protect, removeMapping);
+router.delete('/remove-mapping/:id', removeMapping);
 
 export default router;

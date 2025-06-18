@@ -16,3 +16,90 @@
 [Thu 00:53:32] INFO - - - GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 404 64 - 8.564 ms
 [Thu 00:53:47] INFO - - - GET /api/patients/fetch-patients 200 72 - 6.255 ms
 [Thu 00:55:21] INFO - - - GET /api/patients/fetch-patients 200 1219 - 110.487 ms
+[Thu 02:12:50] ERROR POST /api/auth/login - secretOrPrivateKey must have a value
+[Thu 02:12:50] INFO - - - POST /api/auth/login 401 83 - 212.989 ms
+[Thu 02:14:51] INFO - - - POST /api/auth/login 200 584 - 182.295 ms
+[Thu 02:19:52] INFO - - - POST /api/auth/login 200 584 - 189.164 ms
+[Thu 02:20:25] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 02:20:25] INFO - - - GET /api/patients/fetch-patients 401 69 - 9.564 ms
+[Thu 02:21:24] INFO - - - POST /api/patients/add-patient 401 27 - 4.388 ms
+[Thu 02:22:18] ERROR POST /api/auth/register - Cannot destructure property 'name' of 'undefined' as it is undefined.
+[Thu 02:22:18] INFO - - - POST /api/auth/register 500 116 - 10.731 ms
+[Thu 02:36:06] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:36:06] INFO - - - POST /api/auth/refresh-token 401 79 - 14.861 ms
+[Thu 02:39:05] INFO - - - POST /api/auth/refresh-token 200 485 - 15.000 ms
+[Thu 02:39:33] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:39:33] INFO - - - POST /api/patients/add-patient 401 69 - 6.783 ms
+[Thu 02:40:20] INFO - - - POST /api/patients/add-patient 401 27 - 1.854 ms
+[Thu 02:40:33] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:40:33] INFO - - - POST /api/auth/refresh-token 401 79 - 9.849 ms
+[Thu 02:40:38] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:40:38] INFO - - - POST /api/auth/refresh-token 401 79 - 6.724 ms
+[Thu 02:43:15] INFO - - - POST /api/auth/login 200 584 - 167.938 ms
+[Thu 02:43:39] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:43:39] INFO - - - POST /api/patients/add-patient 401 69 - 3.411 ms
+[Thu 02:44:16] INFO - - - GET /api/patients/fetch-patients 401 27 - 1.714 ms
+[Thu 02:44:40] INFO - - - POST /api/auth/refresh-token 200 485 - 9.174 ms
+[Thu 02:44:59] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 02:44:59] INFO - - - GET /api/patients/fetch-patients 401 69 - 10.453 ms
+[Thu 02:45:16] ERROR POST /api/auth/register - Email already registered
+[Thu 02:45:16] INFO - - - POST /api/auth/register 500 71 - 4.376 ms
+[Thu 02:45:37] INFO - - - POST /api/auth/register 201 585 - 227.527 ms
+[Thu 02:46:00] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:00] INFO - - - POST /api/patients/add-patient 401 69 - 5.984 ms
+[Thu 02:46:28] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:28] INFO - - - POST /api/patients/add-patient 401 69 - 1.952 ms
+[Thu 02:46:31] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:31] INFO - - - POST /api/patients/add-patient 401 69 - 5.020 ms
+[Thu 02:46:32] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:32] INFO - - - POST /api/patients/add-patient 401 69 - 2.032 ms
+[Thu 02:48:47] INFO - - - POST /api/patients/add-patient 401 27 - 11.663 ms
+[Thu 02:49:09] INFO - - - POST /api/auth/refresh-token 200 485 - 13.268 ms
+[Thu 02:49:37] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:49:37] INFO - - - POST /api/patients/add-patient 401 69 - 12.439 ms
+[Thu 02:50:28] INFO - - - POST /api/patients/add-patient 401 27 - 12.687 ms
+[Thu 02:50:45] INFO - - - POST /api/auth/refresh-token 200 485 - 14.202 ms
+[Thu 02:51:04] ERROR POST /api/patients/add-patient - 
+Invalid `prisma.patient.create()` invocation:
+
+{
+  data: {
+    name: "Harsh",
+    age: 39,
+    gender: "Male",
+    address: "123 NY St",
+    contact: "9876543210",
+    disease: "fever",
+    userId: undefined,
++   createdBy: String
+  }
+}
+
+Argument `createdBy` is missing.
+[Thu 02:51:04] INFO - - - POST /api/patients/add-patient 500 344 - 82.452 ms
+[Thu 02:54:40] INFO - - - POST /api/auth/refresh-token 200 485 - 17.872 ms
+[Thu 02:55:06] INFO - - - POST /api/patients/add-patient 201 351 - 129.351 ms
+[Thu 02:55:19] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 02:55:19] INFO - - - GET /api/patients/fetch-patients 401 69 - 4.563 ms
+[Thu 02:57:52] INFO - - - POST /api/auth/refresh-token 200 475 - 21.306 ms
+[Thu 02:58:11] INFO - - - GET /api/patients/fetch-patients 200 358 - 136.119 ms
+[Thu 02:59:04] INFO - - - GET /api/patients/fetch-patients/b3b04fa0-d8f5-47b4-9304-7a84de36a657 200 351 - 7.727 ms
+[Thu 02:59:32] INFO - - - POST /api/patients/add-patient 201 352 - 24.847 ms
+[Thu 03:00:20] ERROR PUT /api/patients/update-patient/f3a8b00a-b87e-49d5-bcc3-ac174c580f2 - Patient not found
+[Thu 03:00:20] INFO - - - PUT /api/patients/update-patient/f3a8b00a-b87e-49d5-bcc3-ac174c580f2 404 64 - 9.394 ms
+[Thu 03:00:53] INFO - - - PUT /api/patients/update-patient/f3a8b00a-b87e-49d5-bcc3-ac174c580f2e 200 359 - 56.443 ms
+[Thu 03:01:32] INFO - - - POST /api/doctors/add-doctor 201 248 - 47.899 ms
+[Thu 03:01:43] INFO - - - GET /api/doctors/fetch-doctor 200 812 - 4.327 ms
+[Thu 03:02:02] INFO - - - GET /api/doctors/fetch-doctor/5f9c8114-15f1-4c87-9f63-b1878ee39a95 200 253 - 5.069 ms
+[Thu 03:02:35] INFO - - - POST /api/mappings/assign 201 222 - 29.736 ms
+[Thu 03:03:05] INFO - - - GET /api/mappings/get 200 2640 - 6.706 ms
+[Thu 03:03:27] ERROR GET /api/mappings/get-patient-doctor/97f3a8b00a-b87e-49d5-bcc3-ac174c580f2e - No patient available with given patient ID. Please provide correct patient ID.
+[Thu 03:03:27] INFO - - - GET /api/mappings/get-patient-doctor/97f3a8b00a-b87e-49d5-bcc3-ac174c580f2e 404 125 - 31.059 ms
+[Thu 03:03:38] INFO - - - GET /api/mappings/get-patient-doctor/f3a8b00a-b87e-49d5-bcc3-ac174c580f2e 200 597 - 6.454 ms
+[Thu 03:04:51] INFO - - - GET /api/mappings/get-patient-doctor/f3a8b00a-b87e-49d5-bcc3-ac174c580f2e 401 31 - 3.931 ms
+[Thu 03:05:28] INFO - - - GET /api/doctors/fetch-doctor/5f9c8114-15f1-4c87-9f63-b1878ee39a95 200 253 - 77.578 ms
+[Thu 03:05:56] INFO - - - GET /api/doctors/fetch-doctor 200 812 - 3.769 ms
+[Thu 03:08:39] INFO - - - GET /api/patients/fetch-patients 200 653 - 208.915 ms
+[Thu 03:10:01] ERROR GET /api/patients/fetch-patients/94de35f0-9b48-4107-bb03-1e24f6ce79a5 - Unauthorized access
+[Thu 03:10:01] INFO - - - GET /api/patients/fetch-patients/94de35f0-9b48-4107-bb03-1e24f6ce79a5 403 66 - 8.031 ms
+[Thu 03:10:40] INFO - - - GET /api/patients/fetch-patients/b3b04fa0-d8f5-47b4-9304-7a84de36a657 200 351 - 6.354 ms

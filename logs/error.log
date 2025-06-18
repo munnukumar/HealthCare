@@ -3,3 +3,39 @@
 [Thu 00:53:02] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
 [Thu 00:53:09] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
 [Thu 00:53:32] ERROR GET /api/patients/fetch-patients/f5eedfaf-41e5-4418-a560-9c9dd3e8e868 - Patient not found
+[Thu 02:12:50] ERROR POST /api/auth/login - secretOrPrivateKey must have a value
+[Thu 02:20:25] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 02:22:18] ERROR POST /api/auth/register - Cannot destructure property 'name' of 'undefined' as it is undefined.
+[Thu 02:36:06] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:39:33] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:40:33] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:40:38] ERROR POST /api/auth/refresh-token - Invalid or expired refresh token
+[Thu 02:43:39] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:44:59] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 02:45:16] ERROR POST /api/auth/register - Email already registered
+[Thu 02:46:00] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:28] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:31] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:46:32] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:49:37] ERROR POST /api/patients/add-patient - User not authenticated
+[Thu 02:51:04] ERROR POST /api/patients/add-patient - 
+Invalid `prisma.patient.create()` invocation:
+
+{
+  data: {
+    name: "Harsh",
+    age: 39,
+    gender: "Male",
+    address: "123 NY St",
+    contact: "9876543210",
+    disease: "fever",
+    userId: undefined,
++   createdBy: String
+  }
+}
+
+Argument `createdBy` is missing.
+[Thu 02:55:19] ERROR GET /api/patients/fetch-patients - User not authenticated
+[Thu 03:00:20] ERROR PUT /api/patients/update-patient/f3a8b00a-b87e-49d5-bcc3-ac174c580f2 - Patient not found
+[Thu 03:03:27] ERROR GET /api/mappings/get-patient-doctor/97f3a8b00a-b87e-49d5-bcc3-ac174c580f2e - No patient available with given patient ID. Please provide correct patient ID.
+[Thu 03:10:01] ERROR GET /api/patients/fetch-patients/94de35f0-9b48-4107-bb03-1e24f6ce79a5 - Unauthorized access

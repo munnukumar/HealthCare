@@ -1,5 +1,5 @@
 
-import { registerUser, loginUser } from '../services/auth.service.js';
+import { registerUser, loginUser, refreshAccessToken } from '../services/auth.service.js';
 import { ErrorResponse } from '../lib/error.res.js';
 import { SuccessResponse } from '../lib/success.res.js';
 
@@ -20,3 +20,13 @@ export const login = async (req, res, next) => {
     next(ErrorResponse.unauthorized(error.message));
   }
 };
+
+export const refreshToken = async (req, res, next) => {
+    try {
+      const { refreshToken } = req.body;
+      const data = await refreshAccessToken(refreshToken);
+      return SuccessResponse.ok(res, data, 'Token refreshed successfully');
+    } catch (error) {
+      next(error);
+    }
+  };

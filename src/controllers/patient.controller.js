@@ -11,6 +11,7 @@ import {
   
   export const addPatient = async (req, res, next) => {
     try {
+        console.log("userId :", req.user.id)
       if (!req.user?.id) {
         throw ErrorResponse.unauthorized('User not authenticated');
       }
