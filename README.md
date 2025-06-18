@@ -2,7 +2,7 @@
 
 ## Features
 
--  User Authentication (Register/Login) with JWT
+-  User Authentication (Register/Login) with AccessToken & RefreshToken
 -  Manage Patients (CRUD)
 -  Manage Doctors (CRUD)
 -  Map Patients with Doctors
