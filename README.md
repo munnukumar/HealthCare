@@ -23,7 +23,6 @@
 | ORM            | Prisma ORM                      |
 | Auth           | JWT + bcrypt                    |
 | Logging        | Winston + Morgan                |
-| API Docs       | Swagger UI + swagger-jsdoc      |
 | Error Handling | Custom Middleware + Response Wrappers |
 
 
